@@ -1,0 +1,16 @@
+{
+    "name": "vulncue/totp",
+    "description": "Dependency-free PHP TOTP (RFC 6238) / HOTP (RFC 4226) implementation, verified against the official RFC test vectors.",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://vulncue.com",
+    "keywords": ["totp", "hotp", "2fa", "two-factor", "rfc6238", "rfc4226", "authenticator", "mfa"],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "VulnCue\\": "src/"
+        }
+    }
+}
